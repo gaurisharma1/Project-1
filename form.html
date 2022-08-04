@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+<form action="_blank" method="get">
+    <b><h2><big>Contact Information</big></h2></b>
+    <br>
+    <p>
+        Name *: <input type ="text" name="Name" id="name" required>
+    </p>
+    <p>
+        Email *:<input type="email" name="email" id="email" required>
+    </p>
+    <p>
+        Gender *:<input type="radio" name="gender" id="gender" required>Male <input type="radio" name="gender" id="female">Female
+    </p>
+    <Fieldset>
+        <legend>Address</legend>
+        <p>
+           address*:<textarea name="address" id="address" cols="120" rows="4"></textarea>
+        </p>
+    </Fieldset>
+    <p>
+        Pincode*:<input type="number" name="number" id="n">
+    </p>
+    <p>
+        City*: 
+        <select name="">--Select the city--
+        <option name="delhi" id="d">Delhi</option>
+        <option name="vadodara" id="v">Vadodara</option>
+        <option name ="Jalandhar" id="j">Jalandhar</option>
+        <option name="Ahmedabad" id="a">Ahmedabad</option>
+    </select>
+    </p>
+    <p>
+        Phone number*:<input type="number" name="number" id="number">
+    </p>
+    <br>
+    <hr>
+    <p>
+        <input type="submit" value="submit">
+    </p>
+</form>
+</body>
+</html>
